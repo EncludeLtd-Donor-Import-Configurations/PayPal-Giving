@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Paypal Giving</label>
+    <protected>false</protected>
+    <values>
+        <field>encdi2__Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>encdi2__Definition__c</field>
+        <value xsi:type="xsd:string">{&quot;flowDefinition&quot;:{&quot;name&quot;:&quot;Donor_Import_PayPal_Giving&quot;},&quot;excludeRows&quot;:[{&quot;column&quot;:&quot;Payout Date&quot;,&quot;operator&quot;:&quot;=&quot;,&quot;value&quot;:&quot;&quot;},{&quot;column&quot;:&quot;Transaction ID&quot;,&quot;operator&quot;:&quot;=&quot;,&quot;value&quot;:&quot;&quot;}],&quot;mappings&quot;:[{&quot;column&quot;:&quot;Donation Date&quot;,&quot;field&quot;:&quot;encdi2__Disbursement_Date__c&quot;,&quot;parameters&quot;:{&quot;format&quot;:&quot;DD/MM/YYYY&quot;}},{&quot;column&quot;:&quot;Donor First Name&quot;,&quot;field&quot;:&quot;encdi2__Donor_First_Name__c&quot;},{&quot;column&quot;:&quot;Donor Last Name&quot;,&quot;field&quot;:&quot;encdi2__Donor_Last_Name__c&quot;},{&quot;column&quot;:&quot;Donor Email&quot;,&quot;field&quot;:&quot;encdi2__Donor_Email__c&quot;},{&quot;column&quot;:&quot;Transaction ID&quot;,&quot;field&quot;:&quot;encdi2__Transaction_Id__c&quot;},{&quot;column&quot;:&quot;Currency Code&quot;,&quot;field&quot;:&quot;encdi2__Currency__c&quot;},{&quot;column&quot;:&quot;Total Fees&quot;,&quot;field&quot;:&quot;encdi2__Merchant_Fee__c&quot;},{&quot;column&quot;:&quot;Net Amount&quot;,&quot;field&quot;:&quot;encdi2__Amount__c&quot;}]}</value>
+    </values>
+</CustomMetadata>
